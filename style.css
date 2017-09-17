@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    header .card {
+		width: 100% !important;
+		height: 600px !important;
+	}
+
+	header .card .cardImage {
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto;
+		text-align: center;
+		top: 15% !important;
+		width: 300px;
+		height: 300px;
+		transform: translateY(0px) !important;
+	}
+
+	header .card .cardInfo {
+		display: block !important;
+		top: 22% !important;
+		width: 98%;
+		text-align: center;
+		margin-left: 0% !important;
+		transform: translateY(0px) !important;
+		font-size: 200%;
+	}
+
+	.cardListTitle {
+		padding-bottom: 80px;
+		font-size: 400% !important;
+	}
+
+	.cardList {
+		width: 100% !important;
+	}
+
+	.cardList .card .cardImage {
+		width:  300px;
+		height: 300px;
+		transform: translateY(30px);
+	}
+
+	.card {
+		text-align: left !important;
+		width: 100% !important;
+		height: 360px !important;
+		transform: translateY(-30px);
+	}
+
+	.cardYear {
+		position: absolute !important;
+		display: block !important;
+		margin-left: 40% !important;
+		font-size: 200%;
+		transform: translateY(-100px) !important;
+	}
+
+	.cardList {
+		width: 100% !important;
+	}
+
+	.card .inner {
+		text-align: left !important;
+	}	
+
+	.cardImage {
+		margin-left: 4% !important;
+	}
+
+	.centerFix .cardInfo a {
+		font-size: 200% !important;
+		transform: translateY(-70px);
+	}
+
+	.cardInfo a {
+		width: 426px !important;
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+		height: 140px !important;
+		line-height: 140px !important;
+		font-size: 300% !important;
+		transform: translateY(-60px);
+	}
+}
+
+	@media screen and (min-device-width: 768px) and (max-device-width: 1950px) {
+		header .cardInfo {
+   			transform: translateY(-40%) !important;
+			margin-left: 2%;
+		}
+
+		header .cardImage {
+   			transform: translateY(-50%) !important;
+		}
+
+	    header .card {
+			width: 100% !important;
+   			height: 170px !important;
+
+		}
+
+		.card {
+			width: 49% !important;
+		}
+
+		.cardList {
+			width: 95% !important;
+		}
+
+		.cardListTitle {
+			text-align: center:
+			width: 100%;
+		}
+
+	}
+
+	@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+		header .cardInfo {
+   			transform: translateY(80%) !important;
+		}
+
+		header .cardImage {
+   			transform: translateY(-80%) !important;
+		}
+
+	    header .card {
+			width: 100% !important;
+   			height: 240px !important;
+
+		}
+
+		.card {
+			width: 49% !important;
+		}
+
+		.cardList {
+			width: 95% !important;
+		}
+
+		.cardListTitle {
+			text-align: center:
+			width: 100%;
+		}
+
+	}
+	@media screen and (min-device-width: 400px) and (max-device-width: 768px) and (orientation: landscape) {
+		header .cardInfo {
+   			transform: translateY(80%) !important;
+		}
+
+		header .cardImage {
+   			transform: translateY(-80%) !important;
+		}
+
+	    header .card {
+			width: 100% !important;
+   			height: 240px !important;
+
+		}
+
+		.card {
+			width: 49% !important;
+		}
+
+		.cardList {
+			width: 95% !important;
+		}
+
+		.cardListTitle {
+			text-align: center:
+			width: 100%;
+		}
+
+	}
+
+.cardListTitle {
+	margin-top: 30px;
+	text-align: center;
+	font-family: "acumin-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.cardList {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+header .cardImage {
+    background-image: url("img/kory.jpg");
+    height: 130px;
+    width: 130px;
+    margin-left: 3%;
+    transform: translateY(-50%);
+}
+
+.card .inner {
+    text-align: center;
+}
+
+.cardYear {
+	display: inline-block;
+	margin-left: 2%;
+    line-height: 1.5em;
+	position: relative;
+	transform: translateY(-30%);
+	color: rgb(118, 118, 118);
+	font-family: "acumin-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.cardImage {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(20%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.cardInfo {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin-left: 5%;
+    transform: translateY(-30%);
+}
+
+header .cardInfo {
+    transform: translateY(-50%);
+}
+
+.blog {
+    background-image: url("img/blog.png");
+}
+
+.github {
+    background-image: url("img/github.png");
+}
+
+.twitter {
+    background-image: url("img/twitter.png");
+}
+
+.vidme {
+    background-image: url("img/vidme.png");
+}
+
+.youtube {
+    background-image: url("img/youtube.png");
+}
+
+.stackoverflow {
+    background-image: url("img/stackoverflow.png");
+}
+
+.unityVoxel {
+    background-image: url("img/unityvoxel.png");
+}
+
+.aspnet {
+    background-image: url("img/aspnet.png");
+}
+
+.playframework {
+    background-image: url("img/playframework.png");
+}
+
+.servertut {
+    background-image: url("img/minecraft.png");
+}
+
+.colorHelper {
+    background-image: url("img/bukkit.png");
+}
+
+.stackoverflow {
+    background-image: url("img/stackoverflow.png");
+}
+
+.mailien {
+    background-image: url("img/mailien.png");
+}
+
+.bottomMargin {
+	margin-bottom: 10px;
+}
+
+header .card {
+    display: block;
+    width: 70%;
+    background-color: #34adfc;
+    color: white;
+    height: 160px;
+	margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    height: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 33%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.centerFix .cardInfo a {
+	width: 190px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.centerFix .card {
+	text-align: left;
+}
+
+.centerFix .card .inner {
+	text-align: left;
+}
+
+.centerFix .cardImage {
+	margin-left: 12%
+}
+
+body {
+    height: 100%;
+    background-color: #eeeded;
+}
+
+.cardInfo a {
+    display: inline-block;
+    position: relative;
+    min-width: 100px;
+	padding-right: 10px;
+	padding-left: 10px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 0.9em;
+    background-color: #fff;
+    color: #646464;
+}
+
+.cardInfo a > paper-ripple {
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.cardInfo a  {
+    background-color: #4285f4;
+    color: #fff;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s;
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.cardInfo a:hover, .cardInfo a:active {
+	background-color: #2F6BF4; 
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}
