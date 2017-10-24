@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+header .card {
+	shadow: none;	
+}
+
 @media screen and (max-device-width: 480px) and (orientation: portrait){
     header .card {
 		width: 100% !important;
