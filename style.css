@@ -90,7 +90,7 @@
 
 	@media screen and (min-device-width: 768px) and (max-device-width: 1950px) {
 		header .cardInfo {
-   			transform: translateY(-40%) !important;
+   			transform: translateY(-160%) !important;
 			margin-left: 2%;
 		}
 
