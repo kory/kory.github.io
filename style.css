@@ -3,6 +3,13 @@
     padding: 0px;
 }
 
+body {
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
 .pageWrapper {
 	width: 100%;
 	overflow: auto;
@@ -125,9 +132,10 @@ header {
 	border-bottom: 1px solid darkgray;
 }
 
-table td {
+table tr td {
 	padding-bottom: 5px;
 	padding-top: 5px;
+	font-size: 1em;
 }
 
 .top td {
