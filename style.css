@@ -142,7 +142,7 @@ table tr td {
 	padding-top: 0px;
 }
 
-.detailRight:has(.experienceItem) {
+.experienceSection {
 	flex-direction: column;
 	align-items: flex-start;
 }
