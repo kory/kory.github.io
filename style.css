@@ -141,3 +141,38 @@ table tr td {
 .top td {
 	padding-top: 0px;
 }
+
+.detailRight:has(.experienceItem) {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.experienceItem {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.experienceItem:last-child {
+	margin-bottom: 0;
+}
+
+.experienceHeader {
+	margin-bottom: 8px;
+}
+
+.experienceHeader strong {
+	font-size: 1em;
+}
+
+.experienceItem ul {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+.experienceItem li {
+	font-size: 0.9em;
+	color: #555;
+	margin-bottom: 5px;
+	line-height: 1.4em;
+	letter-spacing: 0.03em;
+}
